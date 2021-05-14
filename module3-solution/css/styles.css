@@ -1,0 +1,101 @@
+body {
+	font-size: 16px;
+	color: black;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.navbar-brand a {
+	color: black;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.navbar-header {
+	border-bottom: 2px solid black;
+}
+
+#header-nav {
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-header a h1 {
+	color: black;
+	font-weight: bold;
+}
+
+.navbar-header a:hover {
+	text-decoration: none;
+}
+
+#collapsable-nav {
+	background-color: white;
+}
+
+#nav-list a {
+	color: black;
+	text-align: center;
+	border-bottom: 2px solid black;
+	font-size: 1.3em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 2px solid black;
+}
+
+.navbar-header .icon-bar {
+	height: 4px;
+}
+
+.navbar-header button.navbar-toggle:hover,
+.navbar-header button.navbar-toggle:hover .icon-bar {
+	border-color: white;
+	color: white;
+	background-color: transparent;
+}
+
+.navbar-header button.navbar-toggle:active,
+.navbar-header button.navbar-toggle:active .icon-bar {
+	border-color: white;
+	color: white;
+	background-color: transparent;
+}
+
+.navbar-header button.navbar-toggle:focus,
+.navbar-header button.navbar-toggle:focus .icon-bar {
+	border-color: white;
+	color: white;
+	background-color: transparent;
+}
+
+/*.navbar-header button.navbar-toggle {
+	clear: both;
+}*/
+
+.menu-item {
+	background: grey;
+	margin-bottom: 15px;
+}
+
+
+/* Medium devices */
+@media (min-width: 768px) {
+	#collapsable-nav {
+		opacity: 0;
+	}
+
+	.navbar-header {
+		border-bottom: none;
+	}
+
+	#header-nav {
+		border-bottom: 2px solid black;
+	}
+}
+
+@media (max-width: 767px) {
+	.row {
+		margin: 0 15px;
+	}
+}
