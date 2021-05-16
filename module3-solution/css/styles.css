@@ -69,13 +69,14 @@ body {
 	background-color: transparent;
 }
 
-/*.navbar-header button.navbar-toggle {
-	clear: both;
-}*/
-
 .menu-item {
-	background: grey;
-	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+
+.menu-item-text {
+	background-color: grey;
+	height: 100%;
+	padding: 10px 15px;
 }
 
 
@@ -94,8 +95,12 @@ body {
 	}
 }
 
-@media (max-width: 767px) {
-	.row {
-		margin: 0 15px;
-	}
+/* Medium devices */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices */
+@media (min-width: 992px) {
+
 }
