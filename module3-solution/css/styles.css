@@ -77,8 +77,18 @@ body {
 	background-color: grey;
 	height: 100%;
 	padding: 10px 15px;
+	position: relative;
+	overflow: hidden;
+	height: 700px;
 }
 
+.back-to-top-link {
+	color: blue;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 5px;
+}
 
 /* Medium devices */
 @media (min-width: 768px) {
